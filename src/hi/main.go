@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	name := input.Ask(c.Red + "What is your name? ")
+	var name = input.Ask(c.Red + "What is your name? ")
 	println(c.Orange + "Hello World " + c.Green + name)
 }
