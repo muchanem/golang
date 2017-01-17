@@ -15,9 +15,9 @@ func main() {
 	fmt.Println(strings.Title(string2))
 	lowerValue := "hello"
 	upperValue := "HELLO"
-	fmt.Println("Equal?", (lowerValue == upperValue))
-	fmt.Println("Equal Non-Case-Sensitive?", strings.EqualFold(lowerValue, upperValue))
-
+	fmt.Println("Same?", (lowerValue == upperValue))
+	fmt.Println("Non-Case-Sensitive?", strings.EqualFold(lowerValue, upperValue))
+	fmt.Println(string.EqualFold("HI"))
 	fmt.Println("Contains exp?", strings.Contains(string1, "exp"))
 	fmt.Println("Contains exp?", strings.Contains(string2, "exp"))
 
