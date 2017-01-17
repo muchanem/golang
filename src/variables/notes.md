@@ -50,3 +50,18 @@
   * ```uint```
   * ```int```
   * ```uintptr```
+* Floats:
+  * ```float32```
+  * ```float64````
+* Complex numbers:
+  * ```complex64```
+  * ```complex128```
+* Data collections:
+  * ```arrays```
+  * ```slices```
+  * ```maps```
+  * ```structs```
+* Language organization:
+  * ```functions```
+  * ```interfaces```
+  * ```strings````
