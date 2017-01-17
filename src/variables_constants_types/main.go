@@ -1,12 +1,15 @@
 package main
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	string1 := "implicitly typed string"
-	printf("str1: %v:%T\n", str1, str1)
+	fmt.Printf("string1: %v:%T\n", string1, string1)
 	var string2 = "explicitly typed string"
-	printf("str2: %v:%T\n", str2, str2)
+	fmt.Printf("string2: %v:%T\n", string2, string2)
 
 	println(strings.ToUpper(string1))
 	println(strings.Title(string2))
