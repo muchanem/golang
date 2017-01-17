@@ -11,7 +11,7 @@ func main() {
 	var string2 = "explicitly typed string"
 	fmt.Printf("string2: %v:%T\n", string2, string2)
 
-	println(strings.ToUpper(string1))
-	println(strings.Title(string2))
+	fmt.Println(strings.ToUpper(string1))
+	fmt.Println(strings.Title(string2))
 
 }
