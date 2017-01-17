@@ -1,7 +1,13 @@
 package main
 
 func main() {
-	var anInteger int = 13
+	//Explicitly
+	var anInteger = 13
+	// Implicitly
 	aString := "Mark"
+	//Explicitly
+	const int = 13
+	// Implicitly
+	const string = "Mark"
 	println(anInteger, aString)
 }
