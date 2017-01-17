@@ -1,11 +1,11 @@
 package main
 
 import (
+	"fmt"
+
 	c "github.com/skilstak/go-colors"
-
-
 )
 
 func main() {
-	println(c.Multi("Hello World!")
+	fmt.Println(c.Multi("Hello World!"))
 }
