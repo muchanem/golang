@@ -6,8 +6,8 @@ func main() {
 	// Implicitly
 	aString := "Mark"
 	//Explicitly
-	const int = 13
+	const Integer = 13
 	// Implicitly
-	const string = "Mark"
-	println(anInteger, aString)
+	const string1 = "Mark"
+	println(anInteger, aString, Integer, string1)
 }

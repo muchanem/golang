@@ -65,3 +65,5 @@
   * ```functions```
   * ```interfaces```
   * ```strings````
+* Data management:
+  * ```pointers```
