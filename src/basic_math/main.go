@@ -1,11 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
+	int1, int2, int3 := 13, 14, 15
+	intsum := int1 + int2 + int3
 
-	var int1 = 5
-	var float1 = 3.14
-	sum := float(int1) + float1
-	fmt.Println(sum)
 }
