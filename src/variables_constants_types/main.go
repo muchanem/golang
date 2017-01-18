@@ -1,6 +1,6 @@
 package main
 
-// sqrewing arround with strings
+// messing around with strings
 import (
 	"fmt"
 	"strings"
