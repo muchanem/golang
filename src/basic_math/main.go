@@ -1,9 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
-	fmt.Println("")
+
+	var int1 = 5
+	var float1 = 3.14
+	sum := float(int1) + float1
 }
