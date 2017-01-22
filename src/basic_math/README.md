@@ -31,4 +31,15 @@
 > Basics
 
   * Implements common mathematical functions
-  * Provides constants and functions
+  * Provides constants and functions  
+
+> Verbs
+
+```go
+%.10g
+```
+* %.g compacts the output. Replace 10 with how many numbers you want it to compact to
+```go
+%.10f
+```
+* %.f sets how many characters after the decimals
