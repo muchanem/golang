@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"math/big"
 )
 
@@ -30,4 +31,10 @@ func main() {
 
 	//printf with precision
 	fmt.Printf("BigSum = %.10g\n", &bigsum)
+	// set radius
+	cirleradius := 15.5
+	// find circumference
+	circumference := cirleradius * math.Pi
+	// print and sqelch to 2 decimal places
+	fmt.Printf("Circumference: %.2f\n", circumference)
 }
