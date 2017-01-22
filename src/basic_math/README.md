@@ -33,8 +33,9 @@
   * Implements common mathematical functions
   * Provides constants and functions  
 
-> Verbs
+> Verbs  
 
+* Basic verbs     
 ```go
 %.10g
 ```
@@ -42,4 +43,4 @@
 ```go
 %.10f
 ```
-* %.f sets how many characters after the decimals
+* %.f sets how many characters after the decimal you want. Replace 2 with however many characters after the decimal you want
