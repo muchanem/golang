@@ -1,4 +1,4 @@
-## Filler text
+## Basic Math
 
 > Math Operators   
 
@@ -26,3 +26,9 @@
 	sum := float64(int1) + float1
 	fmt.Println(sum)
   ```
+## Math package
+
+> Basics
+
+  * Implements common mathematical functions
+  * Provides constants and functions
