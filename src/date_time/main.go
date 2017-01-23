@@ -11,5 +11,6 @@ func main() {
 	fmt.Printf("When I wrote this program:%s\n", writeTime)
 
 	currrentTime := time.Now()
-	fmt.Printf("When I wrote this program:%s\n", currrentTime)
+	fmt.Printf("Current time:%.14f\n", currrentTime)
+
 }
