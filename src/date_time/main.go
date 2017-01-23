@@ -14,10 +14,11 @@ func main() {
 	// printing it as a string
 	fmt.Printf("Current time:%s\n", currrentTime)
 	// printing Month that I wrote the program
-	fmt.Println("the Month is", writeTime.Month())
+	fmt.Println("the Month is", currrentTime.Month())
 	// printing the date I wrote the program
 	fmt.Println("the date is", writeTime.Day())
 	// printing the day I wrote the program
 	fmt.Println("the day is", writeTime.Weekday())
-	//
+	// defining tommorow
+	//tommorrow := t.addDate()
 }
