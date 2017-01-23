@@ -13,7 +13,10 @@ func main() {
 	currrentTime := time.Now()
 	// printing it as a string
 	fmt.Printf("Current time:%s\n", currrentTime)
-	// printing Month
+	// printing Month that I wrote the program
 	fmt.Println("the Month is", writeTime.Month())
-
+	// printing the date I wrote the program
+	fmt.Println("the date is", writeTime.Day())
+	// printing the day I wrote the program
+	fmt.Println("the day is", writeTime.Weekday())
 }
