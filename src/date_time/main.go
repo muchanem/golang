@@ -19,4 +19,5 @@ func main() {
 	fmt.Println("the date is", writeTime.Day())
 	// printing the day I wrote the program
 	fmt.Println("the day is", writeTime.Weekday())
+	//
 }
