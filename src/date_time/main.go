@@ -24,4 +24,7 @@ func main() {
 	// using three verbs to have three args printed as verb
 	fmt.Printf("Tommorrow is %v, %v %v, %v\n",
 		tommorrow.Weekday(), tommorrow.Month(), tommorrow.Day(), tommorrow.Year())
+	// you can create your own formats
+	standardFormat := "2017/01/25"
+	fmt.Println("Tommorow is", tommorrow.Format(standardFormat))
 }
