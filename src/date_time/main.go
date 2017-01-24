@@ -25,6 +25,6 @@ func main() {
 	fmt.Printf("Tommorrow is %v, %v %v, %v\n",
 		tommorrow.Weekday(), tommorrow.Month(), tommorrow.Day(), tommorrow.Year())
 	// you can create your own formats
-	standardFormat := "yyyy-mm-dd"
-	fmt.Println("Tommorow is", tommorrow.Format(standardFormat))
+	myFormat := "2017-01-25"
+	fmt.Println("Tommorow is", tommorrow.Format(myFormat))
 }
