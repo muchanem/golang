@@ -9,8 +9,10 @@ import (
 
 func main() {
 
-	for true {
+	for {
+		time.Sleep(100 * time.Millisecond)
 		fmt.Println(c.CL + "")
+
 		fmt.Printf(c.R+"%s\n", time.Now())
 
 	}
