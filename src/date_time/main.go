@@ -21,4 +21,7 @@ func main() {
 	fmt.Println("the day is", currrentTime.Weekday())
 	// defining tommorow
 	tommorrow := currrentTime.AddDate(0, 0, 1)
+	// using three verbs to have three args printed as verb
+	fmt.Printf("Tommorrow is %v, %v %v, %v\n",
+		tommorrow.Weekday(), tommorrow.Month(), tommorrow.Day(), tommorrow.Year())
 }
