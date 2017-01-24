@@ -1,11 +1,12 @@
 package main
 
 import (
+	"time"
+
 	c "github.com/skilstak/go-colors"
 )
 
 func main() {
-
-	var anNumber int = 42
-	println(c.Multi("Hello World"))
+	currentTime := time.now()
+	printf(c.R+"The current time is: %s\n", currentTime)
 }
