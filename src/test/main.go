@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	var currentTime = time.now()
+	var nowTime = time.Now()
 
-	fmt.Printf(c.R+"The current time is: %s\n", currentTime)
+	fmt.Printf(c.R+"The current time is: %s\n", nowTime)
 }
