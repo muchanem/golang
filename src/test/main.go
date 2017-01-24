@@ -1,15 +1,10 @@
 package main
 
-import (
-	"fmt"
-	"time"
-
-
-)
+import "fmt"
 
 func main() {
-	for true {
-	func Sleep(10)
-	fmt.Println("hi")
+	for {
+		Sleep(10)
+		fmt.Println("hi")
 	}
 }
