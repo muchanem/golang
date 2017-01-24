@@ -12,4 +12,6 @@ func main() {
 	var nowTime = time.Now()
 
 	fmt.Printf(c.R+"The current time is: %s\n", nowTime)
+	fmt.Println(c.CL + " ")
+
 }
