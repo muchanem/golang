@@ -10,9 +10,11 @@ import (
 func main() {
 
 	for {
+		// sleep one second
 		time.Sleep(100 * time.Millisecond)
+		// clear screen
 		fmt.Println(c.CL + "")
-
+		// print time
 		fmt.Printf(c.R+"%s\n", time.Now())
 
 	}
