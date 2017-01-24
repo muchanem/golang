@@ -10,8 +10,8 @@ import (
 func main() {
 
 	var nowTime = time.Now()
+	for true {
+		fmt.Printf(c.R+"The current time is: %s\n", nowTime)
 
-	fmt.Printf(c.R+"The current time is: %s\n", nowTime)
-	fmt.Println(c.CL + " ")
-
+	}
 }
