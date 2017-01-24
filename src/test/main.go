@@ -1,12 +1,15 @@
 package main
 
 import (
+	"fmt"
 	"time"
 
 	c "github.com/skilstak/go-colors"
 )
 
 func main() {
-	currentTime := time.now()
-	printf(c.R+"The current time is: %s\n", currentTime)
+
+	var currentTime = time.now()
+
+	fmt.Printf(c.R+"The current time is: %s\n", currentTime)
 }
