@@ -20,5 +20,5 @@ func main() {
 	// printing the day
 	fmt.Println("the day is", currrentTime.Weekday())
 	// defining tommorow
-	tommorrow := currrentTime.addDate(currrentTime.Year(), currrentTime.Month(), currrentTime.Day())
+	tommorrow := currrentTime.AddDate(0, 0, 1)
 }
