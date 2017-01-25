@@ -15,7 +15,7 @@ func main() {
 		// clear screen
 		fmt.Println(c.CL + "")
 		// print time
-		fmt.Printf(c.Multi("%s\n"), time.Now()))
+		fmt.Printf(c.Yellow+"%s\n", time.Now())
 
 	}
 }
