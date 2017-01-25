@@ -10,6 +10,8 @@ func main() {
 	if p != nil {
 		// use asterisek to show it is pointer
 		fmt.Println("The value of p is:", *p)
+		// no asterisek for adress
+		fmt.Println("The adress is:", p)
 	} else {
 		fmt.Println("P is nil")
 	}
@@ -18,6 +20,8 @@ func main() {
 	if p != nil {
 		// use asterisek to show it is pointer
 		fmt.Println("The value of p is:", *p)
+		// no asterisek for adress
+		fmt.Println("The adress is:", p)
 	} else {
 		fmt.Println("P is nil")
 	}
