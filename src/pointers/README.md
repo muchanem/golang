@@ -11,4 +11,8 @@
   p = &v
   ```
   * Change v with whatever variable you want it point at make sure the variable matches the data type
-  * Make sure to have & before variable name so it shows you want it to point at that varable
+  * Make sure to have & before variable name so it shows you want it to point at that variable
+  ``` go
+  pointer1 := &value1
+  ```
+  * Declaring and assigning implicitly
