@@ -13,4 +13,12 @@ func main() {
 	} else {
 		fmt.Println("P is nil")
 	}
+	v := 13
+	p = &v
+	if p != nil {
+		// use asterisek to show it is pointer
+		fmt.Println("The value of p is:", *p)
+	} else {
+		fmt.Println("P is nil")
+	}
 }
