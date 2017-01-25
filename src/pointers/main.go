@@ -15,8 +15,8 @@ func main() {
 	} else {
 		fmt.Println("Pointer is nil")
 	}
-	variable1 := 13
-	pointer = &variable1
+	value1 := 13
+	pointer = &value1
 	if pointer != nil {
 		// use asterisek to show it is pointer
 		fmt.Println("The value of pointer is:", *pointer)
@@ -25,5 +25,7 @@ func main() {
 	} else {
 		fmt.Println("Pointer is nil")
 	}
-
+	value2 := 13.2
+	pointer2 := &value2
+	fmt.Println("Value of pointer2", *pointer2)
 }
