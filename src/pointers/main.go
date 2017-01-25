@@ -6,7 +6,7 @@ func main() {
 	// delcaring a pointer that points at a int value
 	var pointer1 *int
 
-	// checking is p  = nil (it does)
+	// checking is p is nil (it does)
 	if pointer1 != nil {
 		// use asterisek to show it is pointer
 		fmt.Println("The value of 'pointer' is:", *pointer1)
