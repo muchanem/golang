@@ -28,4 +28,8 @@ func main() {
 	value2 := 13.2
 	pointer2 := &value2
 	fmt.Println("Value of pointer2", *pointer2)
+	*pointer2 = *pointer2 / 2
+	fmt.Println("Pointer2:", *pointer2)
+	fmt.Println("Value:", value2)
+
 }
