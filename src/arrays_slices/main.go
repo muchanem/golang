@@ -18,4 +18,7 @@ func main() {
 	var numbers = [5]int{5, 4, 3, 2, 1}
 	// printing it
 	fmt.Println(numbers)
+	// finding number of items using len
+	fmt.Println("Number of colours:", len(colours))
+	fmt.Println("Number of ints:", len(numbers))
 }
