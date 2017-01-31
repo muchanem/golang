@@ -39,7 +39,7 @@
 ```go
 %.10g
 ```
-* %.g compacts the output. Replace 10 with how many numbers you want it to compact to
+* %10.g compacts the output. Replace 10 with how many numbers you want it to compact to
 ```go
 %.10f
 ```
