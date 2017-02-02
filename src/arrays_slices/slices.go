@@ -18,4 +18,13 @@ func main() {
 	// removing last item
 	colours = append(colours[:len(colours)-1])
 	fmt.Println(colours)
+	// implicitly declaring slice and using make function to set type to int, intital lenth to 5 and the most values to 5
+	numbers := make([]int, 5, 5)
+	// seting the values
+	numbers[0] = 1
+	numbers[1] = 2
+	numbers[2] = 5
+	numbers[3] = 7
+	numbers[4] = 11
+	fmt.Println(numbers)
 }
