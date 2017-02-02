@@ -27,4 +27,11 @@ func main() {
 	numbers[3] = 7
 	numbers[4] = 11
 	fmt.Println(numbers)
+	// adding number to slice
+	numbers = append(numbers, 13)
+	// print
+	fmt.Println(numbers)
+	// since 13 exaeded the cap it doubled
+	fmt.Println(cap(numbers))
+
 }
