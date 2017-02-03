@@ -31,7 +31,7 @@ func main() {
 	numbers = append(numbers, 13)
 	// print
 	fmt.Println(numbers)
-	// since 13 exaeded the cap it doubled
+	// since 13 exaeded the cap is doubled
 	fmt.Println(cap(numbers))
 
 }
