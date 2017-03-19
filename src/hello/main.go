@@ -8,4 +8,5 @@ import (
 
 func main() {
 	fmt.Println(c.Multi("Hello World!"))
+
 }
