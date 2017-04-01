@@ -9,6 +9,8 @@ import (
 
 func main() {
 	// using prinf to print with formating
-	//
-	fmt.Printf()
+	// %d for decimal gets applied to first number
+	// - to sepeate
+	// %b for binary gets applied to second number
+	fmt.Printf("%d - %b", 13, 13)
 }
