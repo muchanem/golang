@@ -11,7 +11,8 @@ import (
 func main() {
 	// using prinf to print with formating
 	// %d for decimal gets applied to first number
-	// - to sepeate
+	// - to sepeate will be out putted
 	// %b for binary gets applied to second number
-	fmt.Printf("%d - %b", 13, 13)
+	// \n the escape character to get a new line (println already does this hence ln)
+	fmt.Printf("%d - %b \n", 13, 13)
 }
