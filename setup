@@ -1,9 +1,0 @@
-# Source me, don't run me.
-# . setup OR source setup
-
-# NOTE: You can add variations of the following lines to your
-# `.bashrc`, `.bash_profile`, `.profile`, or `.bash_aliases`
-# to avoid having to source setup everytime you work.
-
-export GOPATH=$HOME/repos/golang
-export PATH=$GOPATH/bin:$PATH
