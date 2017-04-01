@@ -2,6 +2,7 @@ package main
 
 /*
   Printing numbers in binary
+  See godoc.org/fmt for more verbs
 */
 import (
 	"fmt"
