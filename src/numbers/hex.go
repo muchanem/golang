@@ -8,5 +8,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("%d %b %h", 13, 13, 13)
+	fmt.Printf("%d %b %x", 13, 13, 13)
 }
