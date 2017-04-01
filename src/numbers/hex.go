@@ -13,5 +13,5 @@ import (
 // %x prints in hex with lowercase letters
 // \n an escape character for newline (println already does this hence ln)
 func main() {
-	fmt.Printf("%d %b %x", 13, 13, 13)
+	fmt.Printf("%d %b %x \n", 13, 13, 13)
 }
