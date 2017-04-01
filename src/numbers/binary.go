@@ -13,6 +13,6 @@ func main() {
 	// %d for decimal gets applied to first number
 	// - to sepeate will be out putted
 	// %b for binary gets applied to second number
-	// \n the escape character to get a new line (println already does this hence ln)
-	fmt.Printf("%d - %b \n", 13, 13)
+	// \n an escape character for newline (println already does this hence ln)
+	fmt.Printf("%d %b \n", 13, 13)
 }
