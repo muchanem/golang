@@ -15,5 +15,5 @@ import (
 // you can change to capital letters by doing %X
 // \n an escape character for newline (println already does this hence ln)
 func main() {
-	fmt.Printf("%d \t %b \t %#x - %x \n", 13, 13, 13, 13)
+	fmt.Printf("%d \t %b \t %#x - %x \n", 13, 13, 1, 13)
 }
