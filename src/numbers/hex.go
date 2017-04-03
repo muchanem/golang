@@ -7,7 +7,7 @@ import (
 	"fmt"
 )
 
-func main {
+func main() {
 	/*
 	  using prinf to print with formating
 	  %d for decimal gets applied to first number
