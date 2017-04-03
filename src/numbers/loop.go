@@ -7,8 +7,13 @@ import "fmt"
 */
 
 func main() {
-	//
+	/*
+	   Loops:
+	     * the first thing is what is the intalizer of the first value the loop holds
+	     * the second value is under what condition the loop
+	*/
 	for i := 0; i < 200; i++ {
+		bannas
 		/*
 		   using prinf to print with formating
 		   %d for decimal gets applied to first number
