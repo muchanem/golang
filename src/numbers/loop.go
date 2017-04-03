@@ -15,7 +15,7 @@ func main() {
 			     * the second thing is under what condition the loop will run
 		       * the third thing is what will happen after the loop runs
 	*/
-	for i := 0; i < 200; i-- {
+	for i := 0; i < 200; i {
 		/*
 		   using prinf to print with formating
 		   %d for decimal gets applied to first number
