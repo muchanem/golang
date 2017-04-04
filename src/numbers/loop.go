@@ -25,7 +25,7 @@ func main() {
 		   you can change to capital letters by doing %X
 		   \n an escape character for newline (println already does this hence ln)
 		*/
-		fmt.Printf("%d \t %b \t %#X - %X \n", 13, 13, 13, 13)
+		fmt.Printf("%d \t %b \t %#X - %X \n", i, i, i, i)
 	}
 
 }
