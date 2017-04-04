@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
-	// just printing a decimal number in go using fmt
+
 	fmt.Println(13)
+	// just printing a decimal number in go using fmt
 }
