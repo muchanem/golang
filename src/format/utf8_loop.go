@@ -8,5 +8,4 @@ func main() {
 		fmt.Printf("%d \t  ", i)
 
 	}
-
 }
