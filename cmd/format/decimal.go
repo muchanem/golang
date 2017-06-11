@@ -5,10 +5,12 @@ package main
 */
 import (
 	"fmt"
+	c "github.com/skilstak/go-colors"
+	"github.com/skilstak/go-input"
 )
 
 func main() {
-
-	fmt.Println(13)
+	var number = input.Ask(c.Orange + "Please input a number: ")
+	fmt.Println(c.Red + number)
 	// just printing a decimal number in go using fmt
 }
