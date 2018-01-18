@@ -1,11 +1,11 @@
 package main
 
 import (
-	"time"
-
+	"fmt"
 	"gobot.io/x/gobot"
 	"gobot.io/x/gobot/drivers/gpio"
 	"gobot.io/x/gobot/platforms/raspi"
+	"time"
 )
 
 func main() {
@@ -14,7 +14,10 @@ func main() {
 
 	work := func() {
 		gobot.Every(1*time.Second, func() {
-			servo.Min()
+			err := servo.Min()
+			if err != nil {
+				fmt.Println("Error: ", err)
+			}
 			servo.Max()
 		})
 	}
