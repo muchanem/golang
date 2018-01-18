@@ -9,8 +9,7 @@ import (
 )
 
 func main() {
-	r := raspi.NewAdapter()
-	r.ServoWrite("18", 90)
+	r := raspi.NewAdaptor()
 	servo := gpio.NewServoDriver(r, "18")
 
 	work := func() {
